@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+  font: bold 12px Arial;
+}
+#date{
+font-size: 1.4rem;
+}
+.clock {
+  text-align: center;
+  border: 2px solid black;
+  background-color: rgb(37, 36, 36);
+  padding: 50px !important;
+  border-radius: 10px;
+  color: white;
+}
+.clock ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 5rem;
+  letter-spacing: 0.5rem;
+}
+marquee{
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
